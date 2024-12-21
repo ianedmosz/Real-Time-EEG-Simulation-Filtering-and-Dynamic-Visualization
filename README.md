@@ -8,7 +8,7 @@ This project is a comprehensive tool for the simulation, processing, and visuali
 
 ## **Real Time Graph**
 
-![Simulated vs Filtered Real EEG Signals](simulated_vs_filtered_real_eeg_signal_fixed.png)
+![Simulated vs Filtered Real EEG Signals](simulation/inages/giphy.gif)
 
 
 
