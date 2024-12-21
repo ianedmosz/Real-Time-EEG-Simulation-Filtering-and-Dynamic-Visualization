@@ -6,7 +6,7 @@ This project is a comprehensive tool for the simulation, processing, and visuali
 
 
 
-## **Real Time Graph**
+## **Real Time EEG Graph**
 
 ![Simulated vs Filtered Real EEG Signals](Simulation/images/giphy.gif)
 
