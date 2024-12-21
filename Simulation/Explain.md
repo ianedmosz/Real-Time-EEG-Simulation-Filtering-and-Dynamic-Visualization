@@ -1,5 +1,9 @@
 # Explanation
 
+## **Config.json**
+
+In the config Simulation You can Change the **n_samples**, **sample frecuency** (**$$FS$$**), **Number of chanels**, The $$\phi_i$$ value, The $$\sigma\$$ value, The $$\beta\$$ Value, The Frequencies of the signal and their amplitudes.
+
 ## **Model_Regresivo.py**
 The Model_Regresive.py is a code of the Autoregressive Mode that Captures the temporal dynamics of the signal.
 
