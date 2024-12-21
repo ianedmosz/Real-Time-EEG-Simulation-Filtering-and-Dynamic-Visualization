@@ -14,4 +14,4 @@ $$ S(t) = \sum_{i=1}^p \phi_i S(t - i) + \epsilon(t) $$
 - **$$\epsilon(t)$$**: Gaussian white noise.  
 
 ## **ruid_fractal.py**
-Adds the characteristic 1/ 𝑓 noise typical of EEG signals.
+Adds the characteristic $$ 1/𝑓$$ noise typical of EEG signals.
