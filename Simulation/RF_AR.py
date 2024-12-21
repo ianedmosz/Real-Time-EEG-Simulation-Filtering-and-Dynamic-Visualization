@@ -90,13 +90,7 @@ signals = simulator.generate_signals_for_channels(num_channels, orders, phis, si
 
 # Guardar señales simuladas en un archivo CSV
 def save_signals_to_csv(signals, filename, fs):
-    """
-    Guarda las señales simuladas en un archivo CSV.
-    
-    :param signals: ndarray, señales EEG simuladas (canales x muestras)
-    :param filename: str, nombre del archivo CSV
-    :param fs: int, frecuencia de muestreo
-    """
+
     import csv
     time = np.arange(signals.shape[1]) / fs  # Generar vector de tiempo
     header = ['Time (s)'] + [f"Channel {i+1}" for i in range(signals.shape[0])]
@@ -110,7 +104,7 @@ def save_signals_to_csv(signals, filename, fs):
 
 save_signals_to_csv(signals, config.get("output_filename", "simulated_eeg_signals.csv"), simulator.fs)
 
-# Visualizar señales generadas
+#Grafica Raw
 plt.figure(figsize=(12, 8))
 for i, signal in enumerate(signals):
     plt.plot(simulator.t, signal, label=f"Canal {i+1}")
