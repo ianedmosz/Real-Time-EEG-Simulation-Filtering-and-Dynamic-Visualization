@@ -50,6 +50,6 @@ $$
 
 ### Comparison of Simulated and Real EEG Signals
 
-![Comparison of Simulated and Real EEG Signals](images/output.png)
+![Comparison of Simulated and Real EEG Signals](images/sigma.png)
 
 
