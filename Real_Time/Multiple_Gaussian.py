@@ -6,7 +6,7 @@ from pyqtgraph.Qt import QtWidgets
 import sys
 import csv
 from scipy.signal import butter, lfilter
-from scipy.ndimage import gaussian_filter1d  # Import for Gaussian filter
+from scipy.ndimage import gaussian_filter1d  
 
 # Filter Configuration
 def butter_bandpass(lowcut, highcut, fs, order=5):
