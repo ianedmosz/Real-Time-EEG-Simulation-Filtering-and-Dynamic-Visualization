@@ -50,7 +50,7 @@ S_{combined}(t) = S_{AR}(t) + N_{fractal}(t) + S_{sin}(t)
 $$
 
 
-##**Result of the Simulated EEG:**
+## **Result of the Simulated EEG:**
 
 ### Comparison of Simulated and Real EEG Signals
 
