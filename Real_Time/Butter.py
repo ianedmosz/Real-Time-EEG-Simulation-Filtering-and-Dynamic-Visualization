@@ -50,7 +50,7 @@ except Exception as e:
     sys.exit(1)
 
 # Filter Parameters
-fs = 500  # Sampling frequency
+fs = 500 
 lowcut = 12.0
 highcut = 30.0
 smoothing_cutoff = 5.0
@@ -76,7 +76,6 @@ win.nextRow()
 plot2 = win.addPlot(title="EEG Signal Power")
 curve2 = plot2.plot(x_data, power_data, pen='r')
 
-# Variables for power calculation and data count
 powers = []
 data_counter = 0
 start_time = time.time()
@@ -110,10 +109,10 @@ def update():
                 data_counter = 0  # Reset counter
                 start_time = time.time()
 
-            # Print the calculated power to the terminal with 4 decimals
+           
             print(f"Signal power: {power:.4f} µV^2")
 
-            # Update plot titles dynamically
+         
             plot1.setTitle(f"Filtered EEG Signal - Current Power: {power:.2f} µV^2")
 
             # Update the curves
@@ -132,7 +131,7 @@ timer.start(2)  # Update every 2 ms
 if __name__ == '__main__':
     sys.exit(app.exec())
 
-# Ask for the CSV filename at the end and save the power data
+
 csv_filename = input("Enter the name of the CSV file to save the data (include '.csv'): ")
 if not csv_filename.endswith('.csv'):
     csv_filename += '.csv'
